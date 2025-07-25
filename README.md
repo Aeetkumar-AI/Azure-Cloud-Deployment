@@ -6,19 +6,18 @@ This project allows users to **interact with PDF documents** using **RAG (Retrie
 
 ---
 
-## 🚀 Project Structure
+## 📁 Project Structure
 
+```plaintext
 ChatWithPDF-Project Using Groq-llama model/
-├── app.py # Main Streamlit app
-├── requirements.txt # Python dependencies
-├── .env # Environment variables (e.g., GROQ_API_KEY)
-├── utils/ # Modular utility code
-│ ├── document_loader.py # Loads and parses PDF files
-│ ├── vectorstore_setup.py # Chunks, embeds, and stores documents in a FAISS vectorstore
-│ └── chain_factory.py # Builds Conversational Retrieval Chain using ChatGroq
+├── app.py                  # Main Streamlit app
+├── requirements.txt        # Python dependencies
+├── .env                    # Environment variables (e.g., GROQ_API_KEY)
+├── utils/                  # Modular utility code
+│   ├── document_loader.py     # Loads and parses PDF files
+│   ├── vectorstore_setup.py   # Chunks, embeds, and stores documents in a FAISS vectorstore
+│   └── chain_factory.py       # Builds Conversational Retrieval Chain using ChatGroq
 
-yaml
----
 
 ## ⚙️ Setup Instructions
 
